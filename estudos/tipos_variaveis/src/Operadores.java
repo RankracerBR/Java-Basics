@@ -2,33 +2,18 @@ package estudos.tipos_variaveis.src;
 
 public class Operadores {
     public static void main(String []args){
-        String nomeCompleto = "LINGUAGUEM" + "JAVA";
+        boolean condicao1 = true;
 
-        System.out.println(nomeCompleto);
-    
-        String concatenacao = "?";
+        boolean condicao2 = false;
+
+        if(condicao1 && ( 7 > 4)){
+            System.out.println("as duas condições são verdadeiras");
+        }
+        System.out.println("fim");
         
-        System.out.println(concatenacao);
-
-        concatenacao = 1+1+1+"1";
-        
-        System.out.println(concatenacao);
-
-        concatenacao = 1 + "1" + 1 + 1;
-
-        System.out.println(concatenacao);
-
-        concatenacao = 1 + "1" + 1 + "1";
-
-        System.out.println(concatenacao);
-
-        concatenacao = "1" + 1 + 1 + 1;
-
-        System.out.println(concatenacao);
-
-        concatenacao = "1" +(1+1+1);
-
-        System.out.println(concatenacao);
-
+        if(condicao1 || condicao2){
+            System.out.println("Uma das condições é verdadeira");
+        }
+        System.out.println("fim");
     }
 }
