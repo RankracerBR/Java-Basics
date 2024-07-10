@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"estudos.tiposvariaveis.src","l":"Calculadora"},{"p":"estudos.tiposvariaveis.src","l":"Comentarios"},{"p":"<Unnamed>","l":"TiposVariaveis"}];updateSearchResults();
